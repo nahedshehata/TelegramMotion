@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">chance</string>
+    <string name="online">Online</string>
+    <string name="nahed_said">Nahed Said</string>
+    <string name="notification_and_sound">Notification and sound</string>
+    <string name="number">+010144101425</string>
+    <string name="info_num">Tap to change phone number</string>
+    <string name="account">Account</string>
+    <string name="userName">Nahed Said</string>
+    <string name="info_user_name">User name</string>
+    <string name="your_bio">your bio</string>
+    <string name="info_bio">Bio</string>
+    <string name="setting">Setting</string>
+    <string name="chat_setting">chat setting</string>
+    <string name="privacy_and_security">privacy and Security</string>
+    <string name="data_and_storage">Data and storage</string>
+    <string name="power_saving">power saving</string>
+    <string name="devices">Devices</string>
+    <string name="language">Language</string>
+    <string name="telegram_premium">Telegram Premium</string>
+    <string name="help">Help</string>
+    <string name="ask_a_question">Ask a Question</string>
+    <string name="telegram_faq">Telegram FAQ</string>
+    <string name="privacy_policy">Privacy policy</string>
+</resources>
