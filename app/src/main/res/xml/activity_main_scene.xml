@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:motion="http://schemas.android.com/apk/res-auto"
-   >
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
 
     <Transition
 
@@ -10,11 +9,9 @@
         motion:duration="4000">
         <OnSwipe
             motion:dragDirection="dragUp"
-            motion:touchAnchorId="@id/nestScroll"
-            />
+            motion:touchAnchorId="@id/nestScroll" />
 
-       <KeyFrameSet>
-       </KeyFrameSet>
+        <KeyFrameSet></KeyFrameSet>
 
     </Transition>
 
@@ -28,106 +25,103 @@
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
-            motion:layout_constraintTop_toTopOf="parent"
             android:id="@+id/my_icon"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_editor_absoluteY="27dp"
-            motion:layout_editor_absoluteX="25dp" />
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_editor_absoluteX="25dp"
+            motion:layout_editor_absoluteY="27dp" />
         <Constraint
-            motion:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/arrow"
-            motion:layout_editor_absoluteX="411dp"
-            motion:layout_constraintTop_toTopOf="parent" />
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_editor_absoluteX="411dp" />
         <Constraint
-            motion:layout_editor_absoluteX="127dp"
             android:id="@+id/icon1"
             motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_editor_absoluteX="127dp"
             motion:layout_editor_absoluteY="381dp" />
         <Constraint
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:id="@+id/online"
             android:layout_width="wrap_content"
-            motion:layout_constraintTop_toBottomOf="@+id/name"
-            motion:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="28dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
-            android:id="@+id/online" />
-        <Constraint
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            motion:layout_constraintTop_toTopOf="parent"
-            android:layout_width="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="12dp"
             motion:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="20dp"
+            motion:layout_constraintTop_toBottomOf="@+id/name" />
+        <Constraint
+            android:id="@+id/arr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:id="@+id/arr" />
-        <Constraint
-            android:layout_height="wrap_content"
-            motion:layout_constraintEnd_toStartOf="@+id/ivMenue"
-            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="16dp"
-            motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintHorizontal_bias="0.063"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/qr"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="304dp"
-            android:id="@+id/qr" />
-        <Constraint
-            android:layout_height="219dp"
-            motion:layout_constraintTop_toTopOf="parent"
-            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
             motion:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
-            android:id="@+id/image" />
+            motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
-            android:layout_marginEnd="16dp"
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/ivMenue"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
-            android:layout_width="wrap_content"
-            android:id="@+id/ivMenue" />
+            motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
+            android:id="@+id/nestScroll"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="44dp"
-            android:layout_width="match_parent"
-            motion:layout_constraintTop_toBottomOf="@+id/online"
+            motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            android:id="@+id/nestScroll"
-            motion:layout_constraintEnd_toEndOf="parent" />
+            motion:layout_constraintTop_toBottomOf="@+id/online" />
 
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
 
 
-
         <Constraint
             android:id="@+id/arr"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/arrow_left"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
+            android:src="@drawable/arrow_left"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
-            motion:tint="@color/white"
-            />
+            motion:tint="@color/white" />
         <Constraint
             android:id="@+id/qr"
-            motion:layout_constraintEnd_toStartOf="@+id/ivMenue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="304dp"
-            motion:layout_constraintHorizontal_bias="0.551"
-            motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="8dp"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            motion:layout_constraintEnd_toStartOf="@+id/ivMenue"
+            motion:layout_constraintHorizontal_bias="0.551"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
 
 
-        <Constraint android:id="@+id/ivMenue"
+        <Constraint
+            android:id="@+id/ivMenue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -135,41 +129,41 @@
             android:src="@drawable/menu"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
-            motion:tint="@color/white"
-            />
+            motion:tint="@color/white" />
         <Constraint
             android:id="@+id/image"
             android:layout_width="50dp"
             android:layout_height="70dp"
-            motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintStart_toStartOf="@id/arr"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="0dp" />
+            android:layout_marginTop="0dp"
+            motion:layout_constraintStart_toStartOf="@id/arr"
+            motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
+            android:id="@+id/online"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="152dp"
-            motion:layout_constraintTop_toTopOf="@id/name"
-            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="152dp"
             android:layout_marginTop="32dp"
-            android:id="@+id/online"
-            android:layout_marginLeft="152dp" />
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="@id/name" />
         <Constraint
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="72dp"
 
-            motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintStart_toStartOf="@id/image"
+            android:layout_marginLeft="72dp"
             android:layout_marginTop="16dp"
-            android:layout_marginLeft="72dp" />
+            motion:layout_constraintStart_toStartOf="@id/image"
+            motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            motion:layout_constraintTop_toBottomOf="@+id/online"
-            motion:layout_constraintStart_toStartOf="parent"
             android:id="@+id/nestScroll"
-            android:layout_marginTop="0dp" />
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="0dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/online" />
     </ConstraintSet>
 </MotionScene>

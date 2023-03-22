@@ -20,18 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/white" />
 
-    <ImageView
-        android:id="@+id/qr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="304dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/qr"
-        app:layout_constraintEnd_toStartOf="@+id/ivMenue"
-        app:layout_constraintHorizontal_bias="0.551"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/white" />
+
 
     <ImageView
         android:id="@+id/ivMenue"
@@ -223,7 +212,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/chat"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv6" />
 
@@ -248,7 +237,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/lock"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line3" />
 
@@ -272,7 +261,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/notification"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line4" />
 
@@ -296,7 +285,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/storage"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line5" />
 
@@ -320,7 +309,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/power"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line6" />
 
@@ -344,7 +333,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/devices"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line7" />
 
@@ -369,7 +358,7 @@
                 android:textSize="18sp"
                 android:layout_marginBottom="4dp"
                 app:drawableLeftCompat="@drawable/language"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line8" />
 
@@ -393,7 +382,6 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/premium"
-
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line9"
 
@@ -432,7 +420,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/chat"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv15" />
 
@@ -456,7 +444,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/question_mark"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line11" />
 
@@ -480,7 +468,7 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:drawableLeftCompat="@drawable/privacy"
-                app:drawableTint="@color/white"
+                app:drawableTint="#9F9F9F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/line12" />
 
